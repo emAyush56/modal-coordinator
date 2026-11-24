@@ -1,0 +1,11 @@
+{
+  "popups": {
+    "reorder_brand_review": { "status": "inligible", "resolveAfterMs": 1500, "autoCloseMs": null },
+    "dynamic_coupon": { "status": "eligible", "resolveAfterMs": 1500, "autoCloseMs": 3000 },
+    "edge_plus": { "status": "eligible", "resolveAfterMs": 1000, "autoCloseMs": null },
+    "coins_auto_apply": { "status": "eligible", "resolveAfterMs": 400, "autoCloseMs": 4000 }
+  },
+  "redcliffe": { "status": "inligible", "resolveAfterMs": 600 },
+  "coldChain": { "enabled": false, "checkMs": 1500, "unserviceable": true },
+  "openSheetAfterMs": null
+}
