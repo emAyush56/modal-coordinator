@@ -1,10 +1,10 @@
-import type { Metadata } from "next"
-import { CartView } from "@/components/cart/cart-view"
+import type { Metadata } from "next";
+import { DemoCart } from "@/modules/cart/components/demo-popups/demo-cart";
 
 export const metadata: Metadata = {
   title: "Cart",
-}
+};
 
 export default function CartPage() {
-  return <CartView />
+  return <DemoCart />;
 }
