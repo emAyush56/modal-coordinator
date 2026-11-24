@@ -1,14 +1,16 @@
 # Cart pop-up arbiter demo
 
-A demo cart with four competing auto pop-ups, run through the **same arbiter
-code as flexipill-ui** (PRX-I6218). The arbiter files are copied byte-for-byte;
+An add-on demo at `/race`: a dummy cart with four competing auto pop-ups, run
+through the **same arbiter code as flexipill-ui** (PRX-I6218). The original
+race demo at `/cart` is unchanged. The arbiter files are copied byte-for-byte;
 `pnpm parity` proves it.
 
 ## Run
 
 ```bash
 pnpm install
-pnpm dev            # http://localhost:3000/cart
+pnpm dev            # arbiter demo: http://localhost:3000/race  (Cart button → /race/cart)
+                    # original race demo (no arbiter): http://localhost:3000/cart
 pnpm parity         # diff the arbiter files against ../flexipill-ui
 ```
 

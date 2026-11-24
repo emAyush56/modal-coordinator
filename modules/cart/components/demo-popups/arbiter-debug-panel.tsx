@@ -60,7 +60,7 @@ export function ArbiterDebugPanel() {
   const resetAndRerun = () => {
     localStorage.removeItem(LAST_SHOWN_KEY);
     sessionStorage.removeItem(SESSION_KEY);
-    window.location.href = '/cart';
+    window.location.href = '/race/cart';
   };
 
   const rows = [...state.config.priority, REDCLIFFE_POPUP] as const;
@@ -73,7 +73,7 @@ export function ArbiterDebugPanel() {
           <Button
             variant="outline"
             size="sm"
-            onClick={() => (window.location.href = '/cart')}
+            onClick={() => (window.location.href = '/race/cart')}
           >
             Re-run
           </Button>
